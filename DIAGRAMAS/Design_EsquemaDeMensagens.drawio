@@ -1,0 +1,163 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="26.3.0">
+  <diagram name="Página-1" id="11UmGFzE6osbqvSOfMR0">
+    <mxGraphModel dx="1418" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="a1HCaZUt2GFdcv4pPzX8-1" value="&amp;lt;&amp;lt;Mensagem&amp;gt;&amp;gt;&lt;div&gt;Dados Bloquear Aplicativo(s)&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="80" width="220" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="a1HCaZUt2GFdcv4pPzX8-2" value="+ AplicativoDisponivel: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="a1HCaZUt2GFdcv4pPzX8-1">
+          <mxGeometry y="30" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="a1HCaZUt2GFdcv4pPzX8-41" value="+ AplicativoSelecionado: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="a1HCaZUt2GFdcv4pPzX8-1">
+          <mxGeometry y="56" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="a1HCaZUt2GFdcv4pPzX8-3" value="+ TempoBloqueio: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="a1HCaZUt2GFdcv4pPzX8-1">
+          <mxGeometry y="82" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="a1HCaZUt2GFdcv4pPzX8-4" value="+ StatusBloqueio: boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="a1HCaZUt2GFdcv4pPzX8-1">
+          <mxGeometry y="108" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="a1HCaZUt2GFdcv4pPzX8-5" value="&amp;lt;&amp;lt;Serviço Bloquear Aplicativo(s)&amp;gt;&amp;gt;&amp;nbsp;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="80" width="310" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="a1HCaZUt2GFdcv4pPzX8-6" value="+ Mostrar tela de Bloqueio de apps" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="a1HCaZUt2GFdcv4pPzX8-5">
+          <mxGeometry y="30" width="310" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="a1HCaZUt2GFdcv4pPzX8-7" value="+&amp;nbsp;Listar apps disponíveis para bloqueio&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="a1HCaZUt2GFdcv4pPzX8-5">
+          <mxGeometry y="56" width="310" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="a1HCaZUt2GFdcv4pPzX8-8" value="+&amp;nbsp;Salvar escolha dos apps selecionados para bloqueio" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="a1HCaZUt2GFdcv4pPzX8-5">
+          <mxGeometry y="82" width="310" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="a1HCaZUt2GFdcv4pPzX8-10" value="+&amp;nbsp;Salvar o tempo de bloqueio" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="a1HCaZUt2GFdcv4pPzX8-5">
+          <mxGeometry y="108" width="310" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="a1HCaZUt2GFdcv4pPzX8-9" value="+&amp;nbsp;Bloquear o app&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="a1HCaZUt2GFdcv4pPzX8-5">
+          <mxGeometry y="134" width="310" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="a1HCaZUt2GFdcv4pPzX8-11" value="&amp;lt;&amp;lt;Mensagem&amp;gt;&amp;gt;&lt;div&gt;Dados Limitar Aplicativo(s)&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="310" width="220" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="a1HCaZUt2GFdcv4pPzX8-12" value="+ AplicativoDisponivel: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="a1HCaZUt2GFdcv4pPzX8-11">
+          <mxGeometry y="30" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="a1HCaZUt2GFdcv4pPzX8-39" value="+ AplicativoSelecionado: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="a1HCaZUt2GFdcv4pPzX8-11">
+          <mxGeometry y="56" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="a1HCaZUt2GFdcv4pPzX8-13" value="+ TempoUsoLimite: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="a1HCaZUt2GFdcv4pPzX8-11">
+          <mxGeometry y="82" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="a1HCaZUt2GFdcv4pPzX8-14" value="+ StatusLimite: boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="a1HCaZUt2GFdcv4pPzX8-11">
+          <mxGeometry y="108" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="a1HCaZUt2GFdcv4pPzX8-15" value="&amp;lt;&amp;lt;Serviço Limitar Aplicativo(s)&amp;gt;&amp;gt;&amp;nbsp;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="310" width="310" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="a1HCaZUt2GFdcv4pPzX8-16" value="+ Mostrar tela de limitação de apps" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="a1HCaZUt2GFdcv4pPzX8-15">
+          <mxGeometry y="30" width="310" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="a1HCaZUt2GFdcv4pPzX8-17" value="+ Listar apps disponíveis para limitação&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="a1HCaZUt2GFdcv4pPzX8-15">
+          <mxGeometry y="56" width="310" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="a1HCaZUt2GFdcv4pPzX8-18" value="+ Salvar escolha dos apps selecionados para limitação" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="a1HCaZUt2GFdcv4pPzX8-15">
+          <mxGeometry y="82" width="310" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="a1HCaZUt2GFdcv4pPzX8-19" value="+ Salvar tempo de uso diário do app" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="a1HCaZUt2GFdcv4pPzX8-15">
+          <mxGeometry y="108" width="310" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="a1HCaZUt2GFdcv4pPzX8-20" value="+ Limitar o app" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="a1HCaZUt2GFdcv4pPzX8-15">
+          <mxGeometry y="134" width="310" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="a1HCaZUt2GFdcv4pPzX8-21" value="&amp;lt;&amp;lt;Mensagem&amp;gt;&amp;gt;&lt;div&gt;Dados Visualizar Relatórios de Uso&amp;nbsp; &amp;nbsp;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="530" width="220" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="a1HCaZUt2GFdcv4pPzX8-22" value="+ AplicativoAberto: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="a1HCaZUt2GFdcv4pPzX8-21">
+          <mxGeometry y="30" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="a1HCaZUt2GFdcv4pPzX8-40" value="+ AplicativoSelecionado: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="a1HCaZUt2GFdcv4pPzX8-21">
+          <mxGeometry y="56" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="a1HCaZUt2GFdcv4pPzX8-23" value="+ TempoUso: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="a1HCaZUt2GFdcv4pPzX8-21">
+          <mxGeometry y="82" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="a1HCaZUt2GFdcv4pPzX8-25" value="&amp;lt;&amp;lt;Serviço Visualizar Relatórios de Uso&amp;gt;&amp;gt;&amp;nbsp;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="505" width="310" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="a1HCaZUt2GFdcv4pPzX8-26" value="+ Mostrar tela de relatórios de uso&amp;nbsp; &amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="a1HCaZUt2GFdcv4pPzX8-25">
+          <mxGeometry y="30" width="310" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="a1HCaZUt2GFdcv4pPzX8-27" value="+ Listar apps que já foram usados&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="a1HCaZUt2GFdcv4pPzX8-25">
+          <mxGeometry y="56" width="310" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="a1HCaZUt2GFdcv4pPzX8-28" value="+ Buscar dados de tempo de uso dos apps listados" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="a1HCaZUt2GFdcv4pPzX8-25">
+          <mxGeometry y="82" width="310" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="a1HCaZUt2GFdcv4pPzX8-29" value="+ Disponibilizar e enviar relatórios ao usuário na aba destinada" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="a1HCaZUt2GFdcv4pPzX8-25">
+          <mxGeometry y="108" width="310" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="a1HCaZUt2GFdcv4pPzX8-31" value="&amp;lt;&amp;lt;Mensagem&amp;gt;&amp;gt;&lt;div&gt;Dados Ativar Modo de Emergência&amp;nbsp; &amp;nbsp;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="725" width="220" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="a1HCaZUt2GFdcv4pPzX8-32" value="+ ModoEmergencia: boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="a1HCaZUt2GFdcv4pPzX8-31">
+          <mxGeometry y="30" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="a1HCaZUt2GFdcv4pPzX8-50" value="+ AplicativoDisponivel: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="a1HCaZUt2GFdcv4pPzX8-31">
+          <mxGeometry y="56" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="a1HCaZUt2GFdcv4pPzX8-33" value="+ StatusBloqueio: boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="a1HCaZUt2GFdcv4pPzX8-31">
+          <mxGeometry y="82" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="a1HCaZUt2GFdcv4pPzX8-42" value="+ StatusLimite: boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="a1HCaZUt2GFdcv4pPzX8-31">
+          <mxGeometry y="108" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="a1HCaZUt2GFdcv4pPzX8-34" value="&amp;lt;&amp;lt;Serviço Ativar Modo de Emergência&amp;gt;&amp;gt;&amp;nbsp;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="725" width="310" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="a1HCaZUt2GFdcv4pPzX8-35" value="+ Enviar comando para ativar modo de emergência" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="a1HCaZUt2GFdcv4pPzX8-34">
+          <mxGeometry y="30" width="310" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="a1HCaZUt2GFdcv4pPzX8-36" value="+ Desativar todas as restrições configuradas no Phonout" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="a1HCaZUt2GFdcv4pPzX8-34">
+          <mxGeometry y="56" width="310" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a1HCaZUt2GFdcv4pPzX8-43" value="&amp;lt;&amp;lt;Mensagem&amp;gt;&amp;gt;&lt;div&gt;Dados Ativar Modo de Controle Parental&amp;nbsp; &amp;nbsp;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="890" width="240" height="186" as="geometry" />
+        </mxCell>
+        <mxCell id="a1HCaZUt2GFdcv4pPzX8-44" value="+ Senha: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="a1HCaZUt2GFdcv4pPzX8-43">
+          <mxGeometry y="30" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="a1HCaZUt2GFdcv4pPzX8-53" value="+ AplicativoDisponivel: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="a1HCaZUt2GFdcv4pPzX8-43">
+          <mxGeometry y="56" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="a1HCaZUt2GFdcv4pPzX8-54" value="+ AplicativoSelecionado: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="a1HCaZUt2GFdcv4pPzX8-43">
+          <mxGeometry y="82" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="a1HCaZUt2GFdcv4pPzX8-55" value="+ StatusBloqueio: boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="a1HCaZUt2GFdcv4pPzX8-43">
+          <mxGeometry y="108" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="a1HCaZUt2GFdcv4pPzX8-45" value="+ TempoUsoLimite: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="a1HCaZUt2GFdcv4pPzX8-43">
+          <mxGeometry y="134" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="a1HCaZUt2GFdcv4pPzX8-56" value="+ StatusLimite: boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="a1HCaZUt2GFdcv4pPzX8-43">
+          <mxGeometry y="160" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="a1HCaZUt2GFdcv4pPzX8-47" value="&amp;lt;&amp;lt;Serviço Ativar Modo de Controle Parental&amp;gt;&amp;nbsp;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="890" width="310" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="a1HCaZUt2GFdcv4pPzX8-48" value="+ Mostrar campo para criar a senha" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="a1HCaZUt2GFdcv4pPzX8-47">
+          <mxGeometry y="30" width="310" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="a1HCaZUt2GFdcv4pPzX8-49" value="+ Salvar senha do admin&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="a1HCaZUt2GFdcv4pPzX8-47">
+          <mxGeometry y="56" width="310" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="a1HCaZUt2GFdcv4pPzX8-51" value="+ Salvar escolha dos apps selecionados pelo admin" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="a1HCaZUt2GFdcv4pPzX8-47">
+          <mxGeometry y="82" width="310" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="a1HCaZUt2GFdcv4pPzX8-52" value="+ Bloquear aplicativos com senha de admin" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="a1HCaZUt2GFdcv4pPzX8-47">
+          <mxGeometry y="108" width="310" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
