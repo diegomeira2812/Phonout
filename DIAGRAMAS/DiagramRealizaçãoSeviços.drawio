@@ -1,0 +1,190 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="27.0.1">
+  <diagram name="Página-1" id="D6-K6J4zSOakhYxboonZ">
+    <mxGraphModel dx="925" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nidFudNCeoTU9eq047Zy-1" value="&amp;lt;&amp;lt;Interface Serviço&amp;gt;&amp;gt;&lt;div&gt;Bloquear Aplicativo&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="317" y="540" width="193.85" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="nidFudNCeoTU9eq047Zy-2" value="+ ListarAppsDisp() : VECTOR []" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nidFudNCeoTU9eq047Zy-1">
+          <mxGeometry y="26" width="193.85" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nidFudNCeoTU9eq047Zy-3" value="+ AppsSel(): VECTOR []" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nidFudNCeoTU9eq047Zy-1">
+          <mxGeometry y="52" width="193.85" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nidFudNCeoTU9eq047Zy-4" value="+ TempoBlock(): int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nidFudNCeoTU9eq047Zy-1">
+          <mxGeometry y="78" width="193.85" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nidFudNCeoTU9eq047Zy-9" value="+ StatusBlock(): bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nidFudNCeoTU9eq047Zy-1">
+          <mxGeometry y="104" width="193.85" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nidFudNCeoTU9eq047Zy-5" value="&amp;lt;&amp;lt;Componente Serviço&amp;gt;&amp;gt;&lt;div&gt;Limitar Aplicativos&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1580" y="490" width="270" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="nidFudNCeoTU9eq047Zy-6" value="+ ListarAppsDisp() : VECTOR []" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nidFudNCeoTU9eq047Zy-5">
+          <mxGeometry y="26" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nidFudNCeoTU9eq047Zy-14" value="+ AppsSel(): VECTOR []" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nidFudNCeoTU9eq047Zy-5">
+          <mxGeometry y="52" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nidFudNCeoTU9eq047Zy-15" value="+ TempoLim(): int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nidFudNCeoTU9eq047Zy-5">
+          <mxGeometry y="78" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nidFudNCeoTU9eq047Zy-16" value="+ StatusLim(): bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nidFudNCeoTU9eq047Zy-5">
+          <mxGeometry y="104" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nidFudNCeoTU9eq047Zy-10" value="&amp;lt;&amp;lt;Componente Serviço&amp;gt;&amp;gt;&lt;div&gt;Limitar Aplicativos&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="971" y="180" width="270" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="nidFudNCeoTU9eq047Zy-11" value="+ Listar app disponíveis para bloqueio&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nidFudNCeoTU9eq047Zy-10">
+          <mxGeometry y="26" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nidFudNCeoTU9eq047Zy-12" value="+ Salvar escolha dos app para bloqueio" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nidFudNCeoTU9eq047Zy-10">
+          <mxGeometry y="52" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nidFudNCeoTU9eq047Zy-13" value="+ Salvar o tempo de bloqueio" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nidFudNCeoTU9eq047Zy-10">
+          <mxGeometry y="78" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nidFudNCeoTU9eq047Zy-25" value="+ Bloquear o app" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nidFudNCeoTU9eq047Zy-10">
+          <mxGeometry y="104" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nidFudNCeoTU9eq047Zy-17" value="&amp;lt;&amp;lt;Componente Serviço&amp;gt;&amp;gt;&lt;div&gt;Visualizar Relatórios de Uso&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2465.19" y="450" width="270" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="nidFudNCeoTU9eq047Zy-18" value="+ AppAberto(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nidFudNCeoTU9eq047Zy-17">
+          <mxGeometry y="26" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nidFudNCeoTU9eq047Zy-19" value="+ AppSel(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nidFudNCeoTU9eq047Zy-17">
+          <mxGeometry y="52" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nidFudNCeoTU9eq047Zy-20" value="+ TempoUso(): int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nidFudNCeoTU9eq047Zy-17">
+          <mxGeometry y="78" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nidFudNCeoTU9eq047Zy-21" value="&amp;lt;&amp;lt;Componente Serviço&amp;gt;&amp;gt;&lt;div&gt;Ativar Modo de Controle Parental&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3220" y="436" width="270" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="nidFudNCeoTU9eq047Zy-22" value="+ Senha(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nidFudNCeoTU9eq047Zy-21">
+          <mxGeometry y="26" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nidFudNCeoTU9eq047Zy-23" value="+ AppSel(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nidFudNCeoTU9eq047Zy-21">
+          <mxGeometry y="52" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nidFudNCeoTU9eq047Zy-24" value="+ StatusBlock(): bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nidFudNCeoTU9eq047Zy-21">
+          <mxGeometry y="78" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nidFudNCeoTU9eq047Zy-26" value="&amp;lt;&amp;lt;Componente Serviço&amp;gt;&amp;gt;&lt;div&gt;Bloquear Aplicativos&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="400" width="270" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="nidFudNCeoTU9eq047Zy-27" value="+ Listar app disponíveis para limitação&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nidFudNCeoTU9eq047Zy-26">
+          <mxGeometry y="26" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nidFudNCeoTU9eq047Zy-28" value="+ Salvar escolha dos app para limitação" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nidFudNCeoTU9eq047Zy-26">
+          <mxGeometry y="52" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nidFudNCeoTU9eq047Zy-29" value="+ Salvar o tempo de bloqueio" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nidFudNCeoTU9eq047Zy-26">
+          <mxGeometry y="78" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nidFudNCeoTU9eq047Zy-30" value="+ Bloquear o app" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nidFudNCeoTU9eq047Zy-26">
+          <mxGeometry y="104" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nidFudNCeoTU9eq047Zy-35" value="&amp;lt;&amp;lt;Componente Serviço&amp;gt;&amp;gt;&lt;div&gt;Bloquear Aplicativos&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="750" width="180.38" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="nidFudNCeoTU9eq047Zy-38" value="+ ListarAppsDisp() : VECTOR []" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nidFudNCeoTU9eq047Zy-35">
+          <mxGeometry y="26" width="180.38" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nidFudNCeoTU9eq047Zy-39" value="&amp;lt;&amp;lt;Componente Serviço&amp;gt;&amp;gt;&lt;div&gt;Bloquear Aplicativos&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="750" width="180.38" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="nidFudNCeoTU9eq047Zy-40" value="+ AppsSel(): VECTOR []" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nidFudNCeoTU9eq047Zy-39">
+          <mxGeometry y="26" width="180.38" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nidFudNCeoTU9eq047Zy-42" value="&amp;lt;&amp;lt;Componente Serviço&amp;gt;&amp;gt;&lt;div&gt;Bloquear Aplicativos&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="750" width="180.38" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="nidFudNCeoTU9eq047Zy-43" value="+ TempoBlock(): int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nidFudNCeoTU9eq047Zy-42">
+          <mxGeometry y="26" width="180.38" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nidFudNCeoTU9eq047Zy-44" value="&amp;lt;&amp;lt;Componente Serviço&amp;gt;&amp;gt;&lt;div&gt;Bloquear Aplicativos&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="750" width="180.38" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="nidFudNCeoTU9eq047Zy-45" value="+ StatusBlock(): bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nidFudNCeoTU9eq047Zy-44">
+          <mxGeometry y="26" width="180.38" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nidFudNCeoTU9eq047Zy-46" value="&amp;lt;&amp;lt;Classe&amp;gt;&amp;gt;&lt;div&gt;Configurações&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="920" width="270" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="nidFudNCeoTU9eq047Zy-47" value="+ListaAppsBlock(): LIST[]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nidFudNCeoTU9eq047Zy-46">
+          <mxGeometry y="26" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nidFudNCeoTU9eq047Zy-48" value="+ TempoBlock(): int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nidFudNCeoTU9eq047Zy-46">
+          <mxGeometry y="52" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nidFudNCeoTU9eq047Zy-51" value="&amp;lt;&amp;lt;Componente Serviço&amp;gt;&amp;gt;&lt;div&gt;Bloquear Aplicativos&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="740" width="180.38" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="nidFudNCeoTU9eq047Zy-52" value="+ ListarAppsDisp() : VECTOR []" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nidFudNCeoTU9eq047Zy-51">
+          <mxGeometry y="26" width="180.38" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nidFudNCeoTU9eq047Zy-53" value="&amp;lt;&amp;lt;Componente Serviço&amp;gt;&amp;gt;&lt;div&gt;Bloquear Aplicativos&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="740" width="180.38" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="nidFudNCeoTU9eq047Zy-54" value="+ AppsSel(): VECTOR []" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nidFudNCeoTU9eq047Zy-53">
+          <mxGeometry y="26" width="180.38" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nidFudNCeoTU9eq047Zy-55" value="&amp;lt;&amp;lt;Componente Serviço&amp;gt;&amp;gt;&lt;div&gt;Bloquear Aplicativos&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1700" y="740" width="180.38" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="nidFudNCeoTU9eq047Zy-56" value="+ TempoLim(): int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nidFudNCeoTU9eq047Zy-55">
+          <mxGeometry y="26" width="180.38" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nidFudNCeoTU9eq047Zy-57" value="&amp;lt;&amp;lt;Componente Serviço&amp;gt;&amp;gt;&lt;div&gt;Bloquear Aplicativos&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1910" y="740" width="180.38" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="nidFudNCeoTU9eq047Zy-58" value="+ StatusLim(): bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nidFudNCeoTU9eq047Zy-57">
+          <mxGeometry y="26" width="180.38" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nidFudNCeoTU9eq047Zy-59" value="&amp;lt;&amp;lt;Classe&amp;gt;&amp;gt;&lt;div&gt;Configurações&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1580" y="880" width="270" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="nidFudNCeoTU9eq047Zy-60" value="+ListaAppsLimk(): LIST[]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nidFudNCeoTU9eq047Zy-59">
+          <mxGeometry y="26" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nidFudNCeoTU9eq047Zy-61" value="+ TempoLim(): int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nidFudNCeoTU9eq047Zy-59">
+          <mxGeometry y="52" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nidFudNCeoTU9eq047Zy-62" value="&amp;lt;&amp;lt;Componente Serviço&amp;gt;&amp;gt;&lt;div&gt;Bloquear Aplicativos&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2284.81" y="740" width="180.38" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="nidFudNCeoTU9eq047Zy-63" value="+ AppAberto(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nidFudNCeoTU9eq047Zy-62">
+          <mxGeometry y="26" width="180.38" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nidFudNCeoTU9eq047Zy-64" value="&amp;lt;&amp;lt;Componente Serviço&amp;gt;&amp;gt;&lt;div&gt;Bloquear Aplicativos&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2510" y="740" width="180.38" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="nidFudNCeoTU9eq047Zy-65" value="+ AppSel(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nidFudNCeoTU9eq047Zy-64">
+          <mxGeometry y="26" width="180.38" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nidFudNCeoTU9eq047Zy-66" value="&amp;lt;&amp;lt;Componente Serviço&amp;gt;&amp;gt;&lt;div&gt;Bloquear Aplicativos&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2751" y="740" width="180.38" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="nidFudNCeoTU9eq047Zy-67" value="+ TempoUso(): int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nidFudNCeoTU9eq047Zy-66">
+          <mxGeometry y="26" width="180.38" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nidFudNCeoTU9eq047Zy-68" value="&amp;lt;&amp;lt;Classe&amp;gt;&amp;gt;&lt;div&gt;Gráficos de Dados de Uso&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2465.19" y="970" width="270" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="nidFudNCeoTU9eq047Zy-69" value="+ListaAppsScan(): LIST[]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nidFudNCeoTU9eq047Zy-68">
+          <mxGeometry y="26" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nidFudNCeoTU9eq047Zy-70" value="+ TempoUsoTotal(): int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nidFudNCeoTU9eq047Zy-68">
+          <mxGeometry y="52" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nidFudNCeoTU9eq047Zy-71" value="+ TempoUsoBlockLim(): int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nidFudNCeoTU9eq047Zy-68">
+          <mxGeometry y="78" width="270" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
