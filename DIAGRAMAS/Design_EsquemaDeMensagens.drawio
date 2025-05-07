@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="26.3.0">
   <diagram name="Página-1" id="11UmGFzE6osbqvSOfMR0">
-    <mxGraphModel dx="1182" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1805" dy="554" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="9QJLQUKPqrwxcv6vTAIm-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="30" y="180" width="1200" height="1200" as="geometry" />
+        <mxCell id="jaVTq1yD0gbTY-ZC8GaP-9" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="40" width="1260" height="1260" as="geometry" />
         </mxCell>
         <mxCell id="a1HCaZUt2GFdcv4pPzX8-1" value="&amp;lt;&amp;lt;Mensagem&amp;gt;&amp;gt;&lt;div&gt;Dados Bloquear Aplicativo(s)&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="90" y="80" width="220" height="134" as="geometry" />
@@ -101,7 +101,7 @@
           <mxGeometry y="108" width="310" height="42" as="geometry" />
         </mxCell>
         <mxCell id="a1HCaZUt2GFdcv4pPzX8-31" value="&amp;lt;&amp;lt;Mensagem&amp;gt;&amp;gt;&lt;div&gt;Dados Ativar Modo de Emergência&amp;nbsp; &amp;nbsp;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="90" y="940" width="220" height="134" as="geometry" />
+          <mxGeometry x="90" y="940" width="220" height="108" as="geometry" />
         </mxCell>
         <mxCell id="a1HCaZUt2GFdcv4pPzX8-32" value="+ ModoEmergencia: boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="a1HCaZUt2GFdcv4pPzX8-31" vertex="1">
           <mxGeometry y="30" width="220" height="26" as="geometry" />
@@ -111,9 +111,6 @@
         </mxCell>
         <mxCell id="a1HCaZUt2GFdcv4pPzX8-33" value="+ StatusBloqueio: boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="a1HCaZUt2GFdcv4pPzX8-31" vertex="1">
           <mxGeometry y="82" width="220" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="a1HCaZUt2GFdcv4pPzX8-42" value="+ StatusLimite: boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="a1HCaZUt2GFdcv4pPzX8-31" vertex="1">
-          <mxGeometry y="108" width="220" height="26" as="geometry" />
         </mxCell>
         <mxCell id="a1HCaZUt2GFdcv4pPzX8-34" value="&amp;lt;&amp;lt;Serviço Ativar Modo de Emergência&amp;gt;&amp;gt;&amp;nbsp;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="370" y="940" width="310" height="100" as="geometry" />
@@ -125,25 +122,16 @@
           <mxGeometry y="56" width="310" height="44" as="geometry" />
         </mxCell>
         <mxCell id="a1HCaZUt2GFdcv4pPzX8-43" value="&amp;lt;&amp;lt;Mensagem&amp;gt;&amp;gt;&lt;div&gt;Dados Ativar Modo de Controle Parental&amp;nbsp; &amp;nbsp;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="90" y="1105" width="240" height="186" as="geometry" />
+          <mxGeometry x="90" y="1105" width="240" height="108" as="geometry" />
         </mxCell>
         <mxCell id="a1HCaZUt2GFdcv4pPzX8-44" value="+ Senha: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="a1HCaZUt2GFdcv4pPzX8-43" vertex="1">
           <mxGeometry y="30" width="240" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="a1HCaZUt2GFdcv4pPzX8-53" value="+ AplicativoDisponivel: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="a1HCaZUt2GFdcv4pPzX8-43" vertex="1">
+        <mxCell id="a1HCaZUt2GFdcv4pPzX8-54" value="+ AplicativoSelecionado: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="a1HCaZUt2GFdcv4pPzX8-43" vertex="1">
           <mxGeometry y="56" width="240" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="a1HCaZUt2GFdcv4pPzX8-54" value="+ AplicativoSelecionado: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="a1HCaZUt2GFdcv4pPzX8-43" vertex="1">
-          <mxGeometry y="82" width="240" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="a1HCaZUt2GFdcv4pPzX8-55" value="+ StatusBloqueio: boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="a1HCaZUt2GFdcv4pPzX8-43" vertex="1">
-          <mxGeometry y="108" width="240" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="a1HCaZUt2GFdcv4pPzX8-45" value="+ TempoUsoLimite: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="a1HCaZUt2GFdcv4pPzX8-43" vertex="1">
-          <mxGeometry y="134" width="240" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="a1HCaZUt2GFdcv4pPzX8-56" value="+ StatusLimite: boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="a1HCaZUt2GFdcv4pPzX8-43" vertex="1">
-          <mxGeometry y="160" width="240" height="26" as="geometry" />
+          <mxGeometry y="82" width="240" height="26" as="geometry" />
         </mxCell>
         <mxCell id="a1HCaZUt2GFdcv4pPzX8-47" value="&amp;lt;&amp;lt;Serviço Ativar Modo de Controle Parental&amp;gt;&amp;nbsp;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="370" y="1105" width="310" height="134" as="geometry" />
@@ -160,26 +148,29 @@
         <mxCell id="a1HCaZUt2GFdcv4pPzX8-52" value="+ Bloquear aplicativos com senha de admin" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="a1HCaZUt2GFdcv4pPzX8-47" vertex="1">
           <mxGeometry y="108" width="310" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="9QJLQUKPqrwxcv6vTAIm-2" value="&amp;lt;&amp;lt;Mensagem&amp;gt;&amp;gt;&lt;div&gt;Dados Notificar tempo de uso de app &amp;nbsp;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="745" width="220" height="108" as="geometry" />
-        </mxCell>
-        <mxCell id="9QJLQUKPqrwxcv6vTAIm-3" value="+ AplicativoAberto: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="9QJLQUKPqrwxcv6vTAIm-2">
-          <mxGeometry y="30" width="220" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="9QJLQUKPqrwxcv6vTAIm-5" value="+ TempoUsoLimite: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="9QJLQUKPqrwxcv6vTAIm-2">
-          <mxGeometry y="56" width="220" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="9QJLQUKPqrwxcv6vTAIm-11" value="+ Alerta: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="9QJLQUKPqrwxcv6vTAIm-2">
-          <mxGeometry y="82" width="220" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="9QJLQUKPqrwxcv6vTAIm-6" value="&amp;lt;&amp;lt;Serviço Notificar tempo de uso de app&amp;gt;&amp;gt;&amp;nbsp;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="9QJLQUKPqrwxcv6vTAIm-6" value="&amp;lt;&amp;lt;Serviço Notificar tempo de uso de app&amp;gt;&amp;gt;&amp;nbsp;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="370" y="750" width="310" height="82" as="geometry" />
         </mxCell>
-        <mxCell id="9QJLQUKPqrwxcv6vTAIm-7" value="+ Calcular tempo de uso do app limitado em tempo real" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="9QJLQUKPqrwxcv6vTAIm-6">
+        <mxCell id="9QJLQUKPqrwxcv6vTAIm-7" value="+ Calcular tempo de uso do app limitado em tempo real" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="9QJLQUKPqrwxcv6vTAIm-6" vertex="1">
           <mxGeometry y="30" width="310" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="9QJLQUKPqrwxcv6vTAIm-8" value="+ Enviar comando ao SO do celular para gerar alerta" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="9QJLQUKPqrwxcv6vTAIm-6">
+        <mxCell id="9QJLQUKPqrwxcv6vTAIm-8" value="+ Enviar comando ao SO do celular para gerar alerta" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="9QJLQUKPqrwxcv6vTAIm-6" vertex="1">
           <mxGeometry y="56" width="310" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="jaVTq1yD0gbTY-ZC8GaP-4" value="&amp;lt;&amp;lt;Mensagem&amp;gt;&amp;gt;&lt;div&gt;Dados Notificar tempo de uso de app &amp;nbsp;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="730" width="220" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="jaVTq1yD0gbTY-ZC8GaP-5" value="+ AplicativoAberto: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="jaVTq1yD0gbTY-ZC8GaP-4">
+          <mxGeometry y="30" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="jaVTq1yD0gbTY-ZC8GaP-6" value="+ TempoUso: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="jaVTq1yD0gbTY-ZC8GaP-4">
+          <mxGeometry y="56" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="jaVTq1yD0gbTY-ZC8GaP-7" value="+ TempoUsoLimite: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="jaVTq1yD0gbTY-ZC8GaP-4">
+          <mxGeometry y="82" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="jaVTq1yD0gbTY-ZC8GaP-8" value="+ Alerta: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="jaVTq1yD0gbTY-ZC8GaP-4">
+          <mxGeometry y="108" width="220" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
