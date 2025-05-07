@@ -1,0 +1,22 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="26.3.0">
+  <diagram name="Página-1" id="11UmGFzE6osbqvSOfMR0">
+    <mxGraphModel dx="1418" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ieqrw01tfrxitMwMjxWz-2" value="Bloqueio de aplicativos" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="274" y="250" width="366" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Ieqrw01tfrxitMwMjxWz-3" value="&lt;span style=&quot;font-size:12.0pt;font-family:&amp;quot;Times New Roman&amp;quot;,serif;&lt;br/&gt;mso-fareast-font-family:&amp;quot;Times New Roman&amp;quot;;mso-ansi-language:PT-BR;mso-fareast-language:&lt;br/&gt;AR-SA;mso-bidi-language:AR-SA&quot;&gt;+ identificarAplicativosBloqueaveis()&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ieqrw01tfrxitMwMjxWz-2">
+          <mxGeometry y="30" width="366" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ieqrw01tfrxitMwMjxWz-4" value="&lt;span style=&quot;font-size:12.0pt;font-family:&amp;quot;Times New Roman&amp;quot;,serif;&lt;br/&gt;mso-fareast-font-family:&amp;quot;Times New Roman&amp;quot;;mso-ansi-language:PT-BR;mso-fareast-language:&lt;br/&gt;AR-SA;mso-bidi-language:AR-SA&quot;&gt;+ IdentificarAplicativosSelecionados()&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ieqrw01tfrxitMwMjxWz-2">
+          <mxGeometry y="60" width="366" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ieqrw01tfrxitMwMjxWz-5" value="&lt;table style=&quot;width:488.8pt;border-collapse:collapse;border:none;mso-border-alt:solid windowtext .5pt;&lt;br/&gt; mso-yfti-tbllook:1184;mso-padding-alt:0cm 5.4pt 0cm 5.4pt;mso-border-insideh:&lt;br/&gt; .5pt solid windowtext;mso-border-insidev:.5pt solid windowtext&quot; width=&quot;652&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; border=&quot;1&quot; class=&quot;MsoNormalTable&quot;&gt;&lt;br/&gt; &lt;tbody&gt;&lt;tr&gt;&lt;br/&gt;  &lt;td style=&quot;width:224.1pt;border:solid windowtext 1.0pt;&lt;br/&gt;  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt&quot; valign=&quot;top&quot; width=&quot;299&quot;&gt;&lt;br/&gt;  &lt;p class=&quot;MsoNormal&quot;&gt;bloquearAplicativosSelecionados()&lt;/p&gt;&lt;br/&gt;  &lt;/td&gt;&lt;br/&gt; &lt;/tr&gt;&lt;br/&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ieqrw01tfrxitMwMjxWz-2">
+          <mxGeometry y="90" width="366" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
